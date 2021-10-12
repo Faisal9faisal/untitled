@@ -9,13 +9,15 @@ fun main() {
     if (op == "+") {
         println((num1+num2))
     }
-    else if (op == "-") {
-        println((num1-num2))
-    }
-    else if (op == "*") {
-        println((num1*num2))
-    }    else if (op == "/") {
-        println((num1/num2))
+    else {
+        if (op == "-") {
+            println((num1-num2))
+        }
+        else if (op == "*") {
+            println((num1*num2))
+        }    else if (op == "/") {
+            println((num1/num2))
+        }
     }
     }
 
